@@ -1,0 +1,183 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    margin: 20px;
+    color: black;
+} 
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+nav {
+    float: left;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid;
+    border-bottom-color: black;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+
+
+h1 a {
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    line-height: 0.15rem;
+  }
+
+li {
+    padding: 15px;
+    display: inline-block;
+}
+
+a {
+    color: black;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+}
+
+.intro .intro_text {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .intro_text h3 {
+    margin: 0px;
+}
+
+.intro .intro_text .stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes {
+    padding-top: 16px;
+    padding-left: 56px;
+    padding-right: 20px;
+    padding-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+
+.boxes .box {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 16px;
+    width: 30%;
+    background-color: white;
+    height: 350px;
+  }
+
+
+.boxes .box img {
+    width: 100%;
+    height: auto;
+  }
+  
+.boxes .box .text {
+    padding-left: 0px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 2px;
+  }
+  
+.boxes .box h1 {
+    font-size: 20px;
+    padding-bottom: 8px;
+    color: black;
+    opacity: 0.9;
+  }
+.recipe .text {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.recipe .text .ingredients {
+    width: 25%;
+}
+
+.recipe .text .method {
+    width: 65%;
+}
+
+.recipe img {
+    width: 600px;
+}
+
+.recipe ul {
+    line-height: 1.5rem;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    border-left: 0px;
+    border-bottom: 20px;
+}
+
+.checked {
+    color: orange;
+  }
+
+  footer {
+    color: black;
+    padding: 16px 24px;
+    border-top-style: solid;
+    border-top-color: black;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .items a {
+    color: black;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: auto;
+    text-decoration: none;
+    padding-left: 6px;
+  }

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julian's Recipes | Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var divs = $('div[id^="content-"]').hide(),
+                i = 0;
+
+            (function cycle() { 
+
+                divs.eq(i).fadeIn(400)
+                        .delay(3000)
+                        .fadeOut(400, cycle);
+
+                i = ++i % divs.length;
+
+            })();
+        });
+        </script>
+    <link href="./homepage.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="./j.PNG" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <header>
+        <h1 onclick="" style="cursor: pointer;">
+            <a href="./Julian's Recipes.html">Julian's Recipes</a>
+        </h1>
+    </header>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./recipes.html">Recipes</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+
+    <div id="content-1">
+        
+        <div class="featured">
+            <div class='left'>
+                <a href="./pappardelle.html">
+                    <img src="./1.jpg" alt="pappardelle pasta" onclick="" style="cursor: pointer;">
+                </a>
+
+            </div>
+            <div class='desc'>
+
+                <h2>
+                    Featured recipe
+                </h2>
+                <h1>
+                    Pappardelle with crispy capers and red pepper
+                </h1>
+                <p>
+                    A delicious, comforting bowl of pasta is always a winner. This recipe uses red peppers, which are
+                    slow roasted in the oven to bring out their sweetness. Then the flavours are levelled up with crispy
+                    capers, lemony tofu, and oregano.
+                </p>
+
+                <a href="./pappardelle.html" onclick="" style="cursor: pointer;">
+                    Read full recipe &#x2192;
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="content-2">
+        <div class="featured">
+            <div class='left'>
+                <a href="./chickpealemon.html">
+                    <img src="./2.jpg" alt="chickpea lemon" onclick="" style="cursor: pointer;">
+                </a>
+
+            </div>
+            <div class='desc'>
+
+                <h2>
+                    Featured recipe
+                </h2>
+                <h1>
+                    Chickpea, lemon, and green herb stew
+                </h1>
+                <p>
+                    Tangy lemons, melty chickpeas and sharp herbs come together in this dish, which, with crispy
+                    shallots on top, provides the palate with a rich array of different textures.
+                </p>
+
+                <a href="./chickpealemon.html" onclick="" style="cursor: pointer;">
+                    Read full recipe &#x2192;
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="content-3">
+        <div class="featured">
+            <div class='left'>
+                <a href="./cassoulet.html">
+                    <img src="./3.jpg" alt="cassoulet" onclick="" style="cursor: pointer;">
+                </a>
+
+            </div>
+            <div class='desc'>
+
+                <h2>
+                    Featured recipe
+                </h2>
+                <h1>
+                    Tomato and coconut cassoulet
+                </h1>
+                <p>
+                    This beautiful cassoulet combines rich tomatoes with creamy coconut, beans and leeks. This recipe
+                    takes a while to cook, but it is so worth it.
+                </p>
+
+                <a href="./cassoulet.html" onclick="" style="cursor: pointer;">
+                    Read full recipe &#x2192;
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="content-4">
+        <div class="featured">
+            <div class='left'>
+                <a href="./braise.html">
+                    <img src="./4.jpg" alt="braise" onclick="" style="cursor: pointer;">
+                </a>
+
+            </div>
+            <div class='desc'>
+
+                <h2>
+                    Featured recipe
+                </h2>
+                <h1>
+                    Chickpea braise with kale and harissa
+                </h1>
+                <p>
+                    Melty chickpeas, preserved lemon and harissa come together beautifully in this braise which, I
+                    think, has an unreasonable amount of flavour for the amount of time that it takes to make this dish.
+                </p>
+
+                <a href="./braise.html" onclick="" style="cursor: pointer;">
+                    Read full recipe &#x2192;
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="content-5">
+        <div class="featured">
+            <div class='left'>
+                <a href="./dhal.html">
+                    <img src="./5.jpg" alt="pappardelle pasta" onclick="" style="cursor: pointer;">
+                </a>
+
+            </div>
+            <div class='desc'>
+
+                <h2>
+                    Featured recipe
+                </h2>
+                <h1>
+                    Red lentil dhal with tamarind glazed sweet potatoes
+                </h1>
+                <p>
+                    This dhal is full of flavour and texture, and the good thing is, you can make it howevever you want
+                    it. The tamarind glazed sweet potatoes on top offer a spicy bite.
+                </p>
+
+                <a href="./dhal.html" onclick="" style="cursor: pointer;">
+                    Read full recipe &#x2192;
+                </a>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div id="content-6">
+        <div class="featured">
+            <div class='left'>
+                <a href="./tart.html">
+                    <img src="./6.jpg" alt="pappardelle pasta" onclick="" style="cursor: pointer;">
+                </a>
+
+            </div>
+            <div class='desc'>
+
+                <h2>
+                    Featured recipe
+                </h2>
+                <h1>
+                    Pea, mint and preserved lemon filo tart
+                </h1>
+                <p>
+                    This delicious pie is full of zing from the preserved lemons, as well as a satisfying and familiar softness from the peas and mint. Perfect for the herald of spring.
+                </p>
+
+                <a href="./tart.html" onclick="" style="cursor: pointer;">
+                    Read full recipe &#x2192;
+                </a>
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    
+    <footer>
+        <div class='copyright'>
+            <p>
+                <i class="fa fa-copyright"></i>
+                2022 Julian Douglas. All rights reserved
+            </p>
+        </div>
+
+        <div class="items desktop">
+            <a href="https://github.com/julian-douglas" target="_new"><i class="fa fa-github" style="font-size:24px"></i></a>
+            <a href="https://www.linkedin.com/in/julian-douglas/" target="_new"><i class="fa fa-linkedin-square" style="font-size:22.08px"></i></a>
+            <a href="mailto:jualdouglas@gmail.com"><i class="fa fa-envelope" style="font-size:23px"></i></a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

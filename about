@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julian's Recipes | Pappardelle</title>
+    <link href="./pappardelle.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="./j.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+        <header>
+            <h1 onclick="" style="cursor: pointer;">
+                <a href="./Julian's Recipes.html">Julian's Recipes</a>
+            </h1>
+
+            <nav>
+                <ul>
+                <li><a href="./Julian's Recipes.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+    <body>
+
+    <div class="recipe">
+
+        <h2>
+            A small confession
+        </h2>
+
+        <p>
+            None of these recipes are actually mine. 
+        </p>
+
+        <p>
+            They are all adapted from <a href="https://www.amazon.co.uk/Untitled-Anna-Jones/dp/000817248X/ref=sr_1_1?adgrpid=115662321042&gclid=CjwKCAjwvsqZBhAlEiwAqAHElZsAkZGgWn4kRAoBuotiIm0-GjxgPqZwOLESO9wVt7NC3W0yxpQMqhoCY9cQAvD_BwE&hvadid=483356535493&hvdev=c&hvlocphy=9045888&hvnetw=g&hvqmt=e&hvrand=8793982597895947880&hvtargid=kwd-1048211939467&hydadcr=22610_1723281&keywords=anna+jones+one+pot&qid=1664300295&qu=eyJxc2MiOiIwLjM4IiwicXNhIjoiMC4wNyIsInFzcCI6IjAuMTEifQ%3D%3D&sr=8-1" target="_new"><i>One</i></a>, a recipe book by <a href="https://annajones.co.uk/about" target="_new">Anna Jones</a>.
+        </p>
+
+        <p>
+            These happen to be some of my favourite recipes, and I wanted to put them all in one place anyway, so I thought, why not just add them into a website which collates my favourites? These recipes are also so delicious, I need to share them with whoever is reading this.
+        </p>
+
+        <p>
+            As you can see, this website is quite similar to Anna Jones'. I like the minimalist look.
+        </p>
+
+        
+
+</div>
+    
+</body>
+
+</html>
